@@ -7,8 +7,8 @@ class TheBest_Superhero:
 
     def comparisons(self):
         '''
-        Метод скачивает API по информации о супергероях с информацией по всем супергероям.
-        На входе получает парметры для сравнения, возвращает кто самыйй (intelligence) из трех супергероев- Hulk, Captain America, Thanos. 
+        Метод скачивает информацию о супергероях.
+        На входе получает парметры для сравнения, возвращает кто самый (intelligence) из трех супергероев- Hulk, Captain America, Thanos. 
         '''
         
         url = 'https://akabab.github.io/superhero-api/api/all.json'
